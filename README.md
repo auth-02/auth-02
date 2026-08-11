@@ -148,7 +148,6 @@ Some projects are simply experiments — ways to learn something, test an idea, 
 - [ApnaGpt](https://github.com/auth-02/ApnaGpt) — conversational AI experiment
 - [LLM-Workshop-24](https://github.com/auth-02/LLM-Workshop-24) — LLM experimentation and learning
 - [analyza](https://github.com/auth-02/analyza) — data → insights → visualization workflow
-- [jigyasa](https://github.com/auth-02/jigyasa) — AI/ML exploration
 - [jigyasa.ai](https://github.com/auth-02/jigyasa.ai) — AI-oriented exploration
 - [AI-Powered-PDF-to-Data-Converter](https://github.com/auth-02/AI-Powered-PDF-to-Data-Converter) — extracting structured data from PDFs
 - [AI-Powered-Personalized-Learning-Assistant](https://github.com/auth-02/AI-Powered-Personalized-Learning-Assistant) — personalized learning with AI
