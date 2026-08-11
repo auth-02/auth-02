@@ -2,7 +2,7 @@
 
 # Hey, I'm Auth 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=23&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Software+Engineer+%7C+Builder+%7C+Curious+Human;I+like+turning+ideas+into+things+people+can+use;Always+learning.+Always+experimenting." alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=23&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Software+Engineer+%7C+Builder+%7C+Curious+Huma[...]
 
 <br/>
 
@@ -248,35 +248,14 @@ It's the curiosity that connects them.
 
 ---
 
-# 📊 GitHub
+# 📊 GitHub Stats
 
 <div align="center">
 
-<a href="https://github.com/auth-02">
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=auth-02&theme=github_dark" alt="GitHub profile summary"/>
-</a>
-
-<a href="https://github.com/auth-02">
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=auth-02&layout=compact&hide_border=true&langs_count=8" alt="Top languages"/>
-</a>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=auth-02&hide_border=true" alt="GitHub streak"/>
+[![GitHub followers](https://img.shields.io/github/followers/auth-02?style=social)](https://github.com/auth-02)
+[![GitHub User's stars](https://img.shields.io/github/stars/auth-02?style=social)](https://github.com/auth-02?tab=repositories)
 
 </div>
-
----
-
-# 🐍 The contribution snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/auth-02/auth-02/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake"/>
-
-</div>
-
-> If the snake is missing, the GitHub Action that generates it just needs to be enabled.
 
 ---
 
