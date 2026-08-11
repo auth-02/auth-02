@@ -11,19 +11,30 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - uses: platane/snk@v3
+        id: snake-svg
         with:
           github_user_name: auth-02
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          svg_out_size: 300
+      
+      - name: Push generated files to the output branch
+        uses: actions/upload-artifact@v3
+        with:
+          name: generated
+          path: dist/
+      
+      - name: Commit and push
+        run: |
+          mkdir -p dist
+          cp ${{ steps.snake-svg.outputs.svg }} dist/github-contribution-grid-snake.svg || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/ || true
+          git commit -m "Generate snake contribution graph" || true
+          git push origin HEAD:output || git push --set-upstream origin output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-          github_token: ${{ secrets.GITHUB_TOKEN }}
