@@ -253,7 +253,7 @@ It's the curiosity that connects them.
 <div align="center">
 
 <a href="https://github.com/auth-02">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=auth-02&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="GitHub statistics"/>
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=auth-02&theme=github_dark" alt="GitHub profile summary"/>
 </a>
 
 <a href="https://github.com/auth-02">
